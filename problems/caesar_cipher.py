@@ -1,4 +1,4 @@
-def caesarCipherEncryptor(string, key):
+def caesarCipherEncryptor(string: str, key: int) -> str:
     encrypted_string = ""
 
     for c in string:
